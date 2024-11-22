@@ -1,0 +1,1958 @@
+Unity Editor version:    6000.0.26f1 (ccb7c73d2c02)
+Branch:                  6000.0/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.0.1 (Build 24A348)
+Darwin version:          24.0.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.0.26f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/ferparra/Downloads/3D-Endless-Runner-in-Unity-master/EndlessRunnerTutorial
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50098
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: /Users/ferparra/Downloads/3D-Endless-Runner-in-Unity-master/EndlessRunnerTutorial
+/Users/ferparra/Downloads/3D-Endless-Runner-in-Unity-master/EndlessRunnerTutorial
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704653362816]  Target information:
+
+Player connection [140704653362816]  * "[IP] 192.168.8.82 [Port] 0 [Flags] 2 [Guid] 3071199946 [EditorId] 3071199946 [Version] 1048832 [Id] OSXEditor(0,MacBookPro) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [140704653362816] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704653362816] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.26f1 (ccb7c73d2c02)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.26f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ferparra/Downloads/3D-Endless-Runner-in-Unity-master/EndlessRunnerTutorial/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Color LCD preferred device: AMD Radeon Pro 555X (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 555X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 555X (high power)
+Initializing Metal device caps: AMD Radeon Pro 555X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.26f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.26f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.26f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56174
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.26f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.26f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002465 seconds.
+- Loaded All Assemblies, in  1.167 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.290 seconds
+Domain Reload Profiling: 2463ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (236ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (601ms)
+		LoadAssemblies (189ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (588ms)
+			TypeCache.Refresh (585ms)
+				TypeCache.ScanAssembly (551ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1291ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1207ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (100ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (17ms)
+			ProcessInitializeOnLoadAttributes (931ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.769 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.005 seconds
+Domain Reload Profiling: 3774ms
+	BeginReloadAssembly (1110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (490ms)
+		LoadAssemblies (441ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (126ms)
+			BuildScriptInfoCaches (34ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (2006ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1502ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (1349ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.26f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1645 unused Assets / (0.6 MB). Loaded Objects now: 2271.
+Memory consumption went from 90.4 MB to 89.9 MB.
+Total: 11.419962 ms (FindLiveObjects: 0.399400 ms CreateObjectMapping: 0.197791 ms MarkObjects: 10.034320 ms  DeleteObjects: 0.786697 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18242.030465 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.004911782 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.191774 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000569594 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.236380 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000536399 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064902 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000882563 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199027 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000712798 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091356 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000459418 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199425 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000495319 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098008 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000489638 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199158 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000562886 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200778 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000529153 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098725 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000560981 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.197346 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000471513 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100257 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000444499 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199790 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000575878 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.196721 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000475191 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:56Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200150 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000595673 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080835 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00066133 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199955 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000479025 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198641 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000452416 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099160 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000542725 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195387 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00046943 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098554 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000464447 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199003 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000480264 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099703 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000448567 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200352 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000654032 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.196005 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000508717 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200471 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00048559 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098123 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000465431 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099275 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000479178 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198301 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000460988 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100694 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000505829 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200791 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00045331 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199934 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000596819 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094849 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000461329 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200663 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000447567 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101060 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000484586 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094772 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000456277 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099131 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000463024 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101235 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000451227 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195848 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000462587 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099822 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000465458 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.201330 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000466843 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099172 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00047781 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.196948 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000462537 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198783 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000454404 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098267 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000457696 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100467 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000571973 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099629 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000551273 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.216211 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000481175 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.181332 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000482148 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098655 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000450484 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099119 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000479316 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200414 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000445826 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198705 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000474113 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198273 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000627171 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198687 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000448003 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099285 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000535094 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198010 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000457129 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099855 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000616384 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099520 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000478457 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198547 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000487462 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.210029 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000596294 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.187060 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000553715 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099084 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000623408 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198238 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000454406 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198082 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000465659 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199164 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00045345 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099233 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000482809 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100459 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00047208 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097945 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000574862 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198712 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000592891 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199088 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00047093 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200692 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00066004 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.197358 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000468718 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195835 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000460795 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100699 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000455895 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099995 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000503062 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198417 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000606786 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198302 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000464251 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099252 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00048843 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099159 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000492712 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098774 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000682628 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198807 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000531795 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098904 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000532861 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198885 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000597188 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098860 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000568598 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199023 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000477653 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098938 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000471188 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198139 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000483092 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198468 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000464012 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099967 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000588561 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198488 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000464329 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099380 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000507305 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199334 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000506389 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097949 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000590136 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198536 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000584281 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099258 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000596023 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198823 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000635634 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098708 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000511882 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198335 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000454604 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099715 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000552628 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199765 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000504812 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.196757 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00045074 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200709 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000507558 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097708 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000541845 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198737 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000616931 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.242162 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000739748 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055736 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000641445 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098299 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000584378 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199301 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000490365 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098360 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000470838 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198357 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000533168 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199402 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000629391 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.201387 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000557504 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195890 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000510198 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198644 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000598007 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098873 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000542898 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199069 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000536563 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198014 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000450023 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100209 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00044901 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198731 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000475218 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198928 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000441718 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198901 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000504492 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099545 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000497381 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.197107 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000444694 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099899 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000446782 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.216865 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000613057 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180880 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000488545 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100150 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000462722 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198192 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000499658 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098723 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000462908 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.242890 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000744514 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054714 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000560369 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.201209 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000456267 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.196624 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000505181 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198831 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000591658 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.197694 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000447721 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099565 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000454568 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099363 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000563722 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098739 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000518471 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199951 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000464096 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198005 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000522775 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200451 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000461953 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.202048 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000486945 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195602 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000442655 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200545 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000491462 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100568 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(37bec8f03316e1c4c92a0d39762617a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000490283 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+  ERROR: Build asset version error: assets/scripts/gamemanager.cs in SourceAssetDB has modification time of '2024-11-18T01:40:33Z' while content on disk has modification time of '2024-11-18T01:51:59Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.746 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.441 seconds
+Domain Reload Profiling: 2189ms
+	BeginReloadAssembly (266ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (341ms)
+		LoadAssemblies (311ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1442ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1052ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (949ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1643 unused Assets / (298.4 KB). Loaded Objects now: 2273.
+Memory consumption went from 94.4 MB to 94.1 MB.
+Total: 8.438109 ms (FindLiveObjects: 0.241491 ms CreateObjectMapping: 0.172899 ms MarkObjects: 7.543083 ms  DeleteObjects: 0.479597 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.855 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.724 seconds
+Domain Reload Profiling: 2580ms
+	BeginReloadAssembly (304ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (103ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (399ms)
+		LoadAssemblies (378ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (139ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1725ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1269ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (1150ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1643 unused Assets / (324.9 KB). Loaded Objects now: 2273.
+Memory consumption went from 90.8 MB to 90.5 MB.
+Total: 9.074648 ms (FindLiveObjects: 0.246895 ms CreateObjectMapping: 0.178635 ms MarkObjects: 8.135505 ms  DeleteObjects: 0.512371 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.849 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.874 seconds
+Domain Reload Profiling: 2724ms
+	BeginReloadAssembly (278ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (100ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (425ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1875ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1351ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (1211ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1643 unused Assets / (330.1 KB). Loaded Objects now: 2273.
+Memory consumption went from 90.7 MB to 90.4 MB.
+Total: 12.046387 ms (FindLiveObjects: 0.527349 ms CreateObjectMapping: 0.578705 ms MarkObjects: 10.124115 ms  DeleteObjects: 0.810148 ms)
+
+Prepare: number of updated asset objects reloaded= 0
